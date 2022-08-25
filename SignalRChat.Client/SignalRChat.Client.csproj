@@ -5,7 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="_Imports.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Pages\Shared\MainLayout.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="_Imports.razor" />
   </ItemGroup>
 
   <ItemGroup>
