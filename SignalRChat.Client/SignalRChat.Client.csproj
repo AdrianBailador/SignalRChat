@@ -5,19 +5,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="App.razor" />
+    <Content Remove="Shared\NavMenu.razor" />
     <Content Remove="_Imports.razor" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Pages\Shared\MainLayout.razor.css" />
+    <None Remove="Shared\MainLayout.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="Shared\NavMenu.razor" />
     <Compile Include="_Imports.razor" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Pages\Shared\MainLayout.razor.css" />
+    <Content Include="Shared\MainLayout.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="App.razor" />
   </ItemGroup>
 
   <ItemGroup>
